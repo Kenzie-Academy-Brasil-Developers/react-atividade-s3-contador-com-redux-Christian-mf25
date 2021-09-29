@@ -1,0 +1,29 @@
+.action{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 220px;
+}
+
+.number{
+	color: #fff;
+	font-size: 3rem;
+	margin: 20px auto;
+}
+
+.setNumber{
+	background-color: #b4cc39;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 3rem;
+}
+	.setNumber:hover{
+		filter: brightness(0.8);
+	}
+
